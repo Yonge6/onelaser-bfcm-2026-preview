@@ -1,0 +1,315 @@
+{
+  "total": 132,
+  "items": [
+    {
+      "id": "VertiGo_1x1_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/VertiGo/BFCM26_VertiGo_1x1_A_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_1x1_A_v3.webp"
+    },
+    {
+      "id": "VertiGo_4x5_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/VertiGo/BFCM26_VertiGo_4x5_A_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_4x5_A_v3.webp"
+    },
+    {
+      "id": "VertiGo_9x16_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/VertiGo/BFCM26_VertiGo_9x16_A_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_9x16_A_v3.webp"
+    },
+    {
+      "id": "VertiGo_Google_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/VertiGo/BFCM26_VertiGo_Google_A_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_Google_A_v3.webp"
+    },
+    {
+      "id": "VertiGo_EDM_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/VertiGo/BFCM26_VertiGo_EDM_A_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_EDM_A_v3.webp"
+    },
+    {
+      "id": "VertiGo_1x1_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/VertiGo/BFCM26_VertiGo_1x1_B_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_1x1_B_v3.webp"
+    },
+    {
+      "id": "VertiGo_4x5_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/VertiGo/BFCM26_VertiGo_4x5_B_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_4x5_B_v3.webp"
+    },
+    {
+      "id": "VertiGo_9x16_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/VertiGo/BFCM26_VertiGo_9x16_B_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_9x16_B_v3.webp"
+    },
+    {
+      "id": "VertiGo_Google_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/VertiGo/BFCM26_VertiGo_Google_B_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_Google_B_v3.webp"
+    },
+    {
+      "id": "VertiGo_EDM_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/VertiGo/BFCM26_VertiGo_EDM_B_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_EDM_B_v3.webp"
+    },
+    {
+      "id": "VertiGo_1x1_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/VertiGo/BFCM26_VertiGo_1x1_C_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_1x1_C_v3.webp"
+    },
+    {
+      "id": "VertiGo_4x5_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/VertiGo/BFCM26_VertiGo_4x5_C_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_4x5_C_v3.webp"
+    },
+    {
+      "id": "VertiGo_9x16_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/VertiGo/BFCM26_VertiGo_9x16_C_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_9x16_C_v3.webp"
+    },
+    {
+      "id": "VertiGo_Google_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/VertiGo/BFCM26_VertiGo_Google_C_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_Google_C_v3.webp"
+    },
+    {
+      "id": "VertiGo_EDM_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/VertiGo/BFCM26_VertiGo_EDM_C_v3.png",
+      "webp": "webp/VertiGo/BFCM26_VertiGo_EDM_C_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_A_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_A_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_4x5_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_A_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_A_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_9x16_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_A_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_A_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_Google_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_A_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_A_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_EDM_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_A_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_A_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_B_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_B_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_4x5_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_B_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_B_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_9x16_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_B_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_B_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_Google_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_B_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_B_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_EDM_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_B_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_B_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_C_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_C_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_4x5_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_C_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_C_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_9x16_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "size": "9x16",
+      "width": 1080,
+      "height": 1920,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_C_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_C_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_Google_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "size": "Google",
+      "width": 1200,
+      "height": 628,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_C_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_C_v3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_EDM_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "size": "EDM",
+      "width": 1200,
+      "height": 600,
+      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_C_v3.png",
+      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_C_v3.webp"
+    },
+    {
+      "id": "Brand_1x1_B",
+      "group": "Brand",
+      "variant": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "png": "png/Brand/BFCM26_Brand_1x1_B_v3.png",
+      "webp": "webp/Brand/BFCM26_Brand_1x1_B_v3.webp"
+    }
+  ]
+}
