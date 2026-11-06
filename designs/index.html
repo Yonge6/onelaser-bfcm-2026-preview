@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="OneLaser Thanksgiving and BFCM 2026 creative gallery. Browse reviewed artwork by date and download PNG or WebP.">
+  <meta name="description" content="OneLaser Thanksgiving and BFCM 2026 creative gallery. Browse reviewed masters and clearly labeled historical drafts and early prototypes. Download PNG or WebP.">
   <title>OneLaser · 感恩季设计图库</title>
   <style>
     :root{--paper:#14120f;--panel:#1d1a16;--line:#3b352c;--muted:#b4aa9d;--ink:#faf5eb;--accent:#edbd7b;--red:#ff482e;font-family:"Avenir Next","PingFang SC",sans-serif;color:var(--ink);background:var(--paper)}
@@ -32,7 +32,7 @@
       <div>
         <p class="eyebrow">ONELASER / THANKSGIVING &amp; BFCM 2026</p>
         <h1 data-i18n="title">为感恩季，做点特别的。</h1>
-        <p data-i18n="intro">查看全部真实成图。已核对的新稿与待替换的历史稿分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。</p>
+        <p data-i18n="intro">查看此前的全部成图。已核对新稿、历史原生稿与早期排版原型分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。</p>
         <a class="bundle" id="bundle" hidden></a>
       </div>
       <div class="edition"><strong>2026</strong>MAKE SOMETHING TO GIVE<br>THANKSGIVING / BLACK FRIDAY / CYBER MONDAY</div>
@@ -55,7 +55,7 @@
     </div>
   </section>
   <div class="shell results-bar"><span id="count" aria-live="polite">—</span><span class="date-note" data-i18n="sharedNote">全活动通用稿与常青款在各日期均可见</span></div>
-  <main class="shell gallery" id="gallery" aria-label="Reviewed artwork gallery"></main>
+  <main class="shell gallery" id="gallery" aria-label="Complete artwork gallery"></main>
   <footer class="shell footer"><div data-i18n="footer">OneLaser · 感恩节与 BFCM 2026 设计预览</div><span data-i18n="note">海报文案为英文 · PNG / WebP · 历史稿清楚标为待替换</span></footer>
   <script>
   'use strict';
@@ -78,7 +78,8 @@
         Number.isSafeInteger(item.width) && item.width > 0 && Number.isSafeInteger(item.height) && item.height > 0;
     }
     function historical(item) {
-      return item && item.legacy === true && item.native_complete_poster === true &&
+      return item && item.legacy === true && (item.native_complete_poster === true ||
+        (item.source_kind === 'early_layout_prototype' && item.native_complete_poster === false)) &&
         ['needs_revision','previous_preview'].includes(item.review_status) && item.approved === false &&
         item.accepted_preview === false && typeof item.id === 'string' && item.id.startsWith('legacy_') &&
         typeof item.group === 'string' && ['A','B','C','D','E','F'].includes(item.variant) && typeof item.size === 'string' &&
@@ -118,22 +119,22 @@
     }
     return Object.freeze({dates, phase, review, approved, historical, normalize, matchesPhase, forPhase, plannedForPhase, select, bundleHref});
   })();
-  // UI renderer: it consumes only the sanitized, approved manifest items above.
+  // UI renderer: approved masters and explicitly labeled history stay separate.
   const COPY = {
     zh: {
-      title:'为感恩季，做点特别的。', intro:'查看全部真实成图。已核对的新稿与待替换的历史稿分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。',
+      title:'为感恩季，做点特别的。', intro:'查看此前的全部成图。已核对新稿、历史原生稿与早期排版原型分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。',
       plannedLabel:'全部成图', plannedHint:'真实生成并提供 PNG / WebP', readyLabel:'已核对', readyHint:'外观与文案已核对的新稿', phaseHint:'保留旧稿供查看，不作为定稿', phase:'活动日期', review:'审核状态', product:'产品 / 活动', style:'视觉方案', size:'尺寸 / 版位', reset:'重置', allGroup:'全部产品与活动', allStyle:'全部方案', allSize:'全部尺寸',
-      footer:'OneLaser · 感恩节与 BFCM 2026 设计预览', note:'海报文案为英文 · PNG / WebP · 历史稿清楚标为待替换', sharedNote:'历史稿为真实原生成图，已退回稿仅供查看', png:'下载 PNG', webp:'下载 WebP', open:'查看大图', bundle:'下载全部 PNG + WebP', loading:'正在读取素材清单…', error:'暂时无法读取素材清单，请刷新页面重试。', emptyTitle:'这个筛选条件下没有成图', empty:'可以切换审核状态、活动日期或重置筛选。',
-      status:'新稿持续补充。此前的真实原生成图保留在历史区，待替换标记不代表定稿通过；后续按单尺寸母版继续制作。', currentDate:'历史稿 · 待替换', count:(n, ready)=>`筛选结果 ${n} 张 · 其中已核对 ${ready} 张`, reviews:{all:'全部成图',approved:'已核对',needs_revision:'待替换'}, approvedBadge:'已核对', historyBadge:'历史稿 · 待替换', historyDirection:'历史方案',
+      footer:'OneLaser · 感恩节与 BFCM 2026 设计预览', note:'海报文案为英文 · PNG / WebP · 历史稿明确状态与来源', sharedNote:'历史原生稿与早期原型均保留来源，待替换稿仅供查看', png:'下载 PNG', webp:'下载 WebP', open:'查看大图', bundle:'下载全部 PNG + WebP', loading:'正在读取素材清单…', error:'暂时无法读取素材清单，请刷新页面重试。', emptyTitle:'这个筛选条件下没有成图', empty:'可以切换审核状态、活动日期或重置筛选。',
+      status:'新稿持续补充。历史原生稿与早期排版原型均保留，分别标明来源与待替换状态，不代表定稿通过；后续按单尺寸母版继续制作。', currentDate:'历史稿 · 待替换', count:(n, ready)=>`筛选结果 ${n} 张 · 其中已核对 ${ready} 张`, reviews:{all:'全部成图',approved:'已核对',needs_revision:'待替换'}, approvedBadge:'已核对', historyBadge:'历史原生稿 · 待替换', prototypeBadge:'早期原型 · 待替换', historyDirection:'历史方案', nativeSource:'原生完整成图', prototypeSource:'早期排版原型',
       phases:{thanksgiving:'感恩季 · Thanksgiving',thanksgiving_day:'感恩节当天 · HAPPY THANKSGIVING',black_friday:'黑五 · Black Friday',cyber_monday:'网一 · Cyber Monday',all:'全部日期',campaign:'全活动通用',evergreen:'常青款'},
       groups:{StudioScenes:'四机合集 · 场景版',XRF38:'XRF 38W RF',Hydra07_S1:'Hydra 7 Pro · 前 14 台',Hydra07_S2:'Hydra 7 Pro · 第二阶段',Cobra:'Cobra 8 / 10 / 14',VertiGo:'VertiGo 38W RF',Hydra09Hybrid:'Hydra 9 Hybrid',Brand:'品牌活动 · 最高省 $3,000',Brand_After14:'品牌活动 · 最高省 $2,000',Banner:'官网 Banner · $3,000',Banner_After14:'官网 Banner · $2,000'},
       directions:{A:'A · 琥珀工坊',B:'B · 秋日暖橙',C:'C · 奶油白摄影',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, styles:{A:'A · 琥珀工坊',B:'B · 秋日暖橙',C:'C · 奶油白摄影',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, sceneStyles:{A:'A · 暖色木作工坊',B:'B · 黑金品牌展示间',C:'C · 明亮创客工作室',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, sizes:{'1x1':'方形 · 1:1','4x5':'信息流 · 4:5','9x16':'Story · 9:16',Google:'Google · 横版',EDM:'EDM · 横版',Desktop:'桌面 Banner',Mobile:'移动 Banner'}
     },
     en: {
-      title:'Made for giving.', intro:'Explore every complete native artwork. Reviewed new designs and historical drafts awaiting replacement are clearly labeled. Download PNG or WebP as new single-size masters are added.',
+      title:'Made for giving.', intro:'Explore all previous artwork. Reviewed new designs, historical native generations and early layout prototypes are labeled separately. Download PNG or WebP as new single-size masters are added.',
       plannedLabel:'ALL COMPLETE ARTWORK', plannedHint:'Real generations with PNG / WebP', readyLabel:'REVIEWED', readyHint:'New designs checked for product and copy accuracy', phaseHint:'Earlier drafts for reference, not approved finals', phase:'CAMPAIGN DATE', review:'REVIEW STATUS', product:'PRODUCT / CAMPAIGN', style:'VISUAL DIRECTION', size:'SIZE / PLACEMENT', reset:'Reset', allGroup:'All products & campaigns', allStyle:'All directions', allSize:'All sizes',
-      footer:'OneLaser · Thanksgiving & BFCM 2026 creative preview', note:'Artwork copy in English · PNG / WebP · Historical drafts are labeled awaiting replacement', sharedNote:'Historical drafts are real native generations, shown for reference', png:'Download PNG', webp:'Download WebP', open:'View full image', bundle:'Download all PNG + WebP', loading:'Loading the artwork collection…', error:'The artwork manifest could not be loaded. Please refresh and try again.', emptyTitle:'No artwork matches these filters', empty:'Try another review status or campaign date, or reset the filters.',
-      status:'New masters are being added. Earlier native generations remain available as clearly labeled drafts awaiting replacement. Future work follows a single-size master plan.', currentDate:'HISTORICAL · AWAITING REPLACEMENT', count:(n, ready)=>`${n} matching artworks · ${ready} reviewed`, reviews:{all:'All artwork',approved:'Reviewed',needs_revision:'Awaiting replacement'}, approvedBadge:'Reviewed', historyBadge:'Historical · awaiting replacement', historyDirection:'Historical direction',
+      footer:'OneLaser · Thanksgiving & BFCM 2026 creative preview', note:'Artwork copy in English · PNG / WebP · Historical status and origin are labeled', sharedNote:'Historical native generations and early prototypes retain their source labels', png:'Download PNG', webp:'Download WebP', open:'View full image', bundle:'Download all PNG + WebP', loading:'Loading the artwork collection…', error:'The artwork manifest could not be loaded. Please refresh and try again.', emptyTitle:'No artwork matches these filters', empty:'Try another review status or campaign date, or reset the filters.',
+      status:'New masters are being added. Earlier native generations and layout prototypes remain available with explicit source and awaiting-replacement labels; they are not approved finals. Future work follows a single-size master plan.', currentDate:'HISTORICAL · AWAITING REPLACEMENT', count:(n, ready)=>`${n} matching artworks · ${ready} reviewed`, reviews:{all:'All artwork',approved:'Reviewed',needs_revision:'Awaiting replacement'}, approvedBadge:'Reviewed', historyBadge:'Historical native · awaiting replacement', prototypeBadge:'Early prototype · awaiting replacement', historyDirection:'Historical direction', nativeSource:'Complete native generation', prototypeSource:'Early layout prototype',
       phases:{thanksgiving:'Thanksgiving',thanksgiving_day:'HAPPY THANKSGIVING',black_friday:'Black Friday',cyber_monday:'Cyber Monday',all:'All dates',campaign:'Campaign-wide',evergreen:'Evergreen'},
       groups:{StudioScenes:'Four-machine studio collection',XRF38:'XRF 38W RF',Hydra07_S1:'Hydra 7 Pro · First 14 units',Hydra07_S2:'Hydra 7 Pro · Phase 2',Cobra:'Cobra 8 / 10 / 14',VertiGo:'VertiGo 38W RF',Hydra09Hybrid:'Hydra 9 Hybrid',Brand:'Brand campaign · Up to $3,000 off',Brand_After14:'Brand campaign · Up to $2,000 off',Banner:'Website banner · $3,000',Banner_After14:'Website banner · $2,000'},
       directions:{A:'A · Amber workshop',B:'B · Autumn warmth',C:'C · Cream daylight',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, styles:{A:'A · Amber workshop',B:'B · Autumn warmth',C:'C · Cream daylight',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, sceneStyles:{A:'A · Warm maker woodshop',B:'B · Black & gold showroom',C:'C · Sunlit creative studio',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, sizes:{'1x1':'Square · 1:1','4x5':'Feed · 4:5','9x16':'Story · 9:16',Google:'Google · Landscape',EDM:'EDM · Landscape',Desktop:'Desktop banner',Mobile:'Mobile banner'}
@@ -206,9 +207,9 @@
       const image = document.createElement('img'); image.src = item.webp; image.alt = `${product} · ${direction} · ${copy.phases[item.date_phase]} · ${item.width} × ${item.height}`; image.loading = 'lazy'; image.decoding = 'async'; picture.append(image);
       const info = document.createElement('div'); info.className = 'info';
       const phaseBadge = document.createElement('span'); phaseBadge.className = 'card-phase'; phaseBadge.textContent = copy.phases[item.date_phase];
-      const reviewBadge = document.createElement('span'); reviewBadge.className = 'review-badge ' + (item.legacy ? 'pending' : 'checked'); reviewBadge.textContent = item.legacy ? copy.historyBadge : copy.approvedBadge;
+      const reviewBadge = document.createElement('span'); reviewBadge.className = 'review-badge ' + (item.legacy ? 'pending' : 'checked'); reviewBadge.textContent = item.legacy ? (item.source_kind === 'early_layout_prototype' ? copy.prototypeBadge : copy.historyBadge) : copy.approvedBadge;
       const title = document.createElement('h2'); title.textContent = product;
-      const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = `${direction} · ${copy.sizes[item.size] || item.size} · ${item.width} × ${item.height}`;
+      const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = `${direction} · ${copy.sizes[item.size] || item.size} · ${item.width} × ${item.height}` + (item.legacy ? ` · ${item.source_kind === 'early_layout_prototype' ? copy.prototypeSource : copy.nativeSource}` : '');
       const downloads = document.createElement('div'); downloads.className = 'downloads';
       for (const type of ['png','webp']) { const anchor = document.createElement('a'); anchor.href = item[type]; anchor.download = item[type].split('/').pop(); anchor.textContent = copy[type]; downloads.append(anchor); }
       card.dataset.review = item.legacy ? 'needs_revision' : 'approved';
