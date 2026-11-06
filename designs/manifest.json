@@ -1,155 +1,267 @@
 {
-  "total": 138,
+  "schema_version": 6,
+  "asset_version": "v6",
+  "generated_at": "2026-11-06T17:46:21+00:00",
+  "total": 381,
+  "planned_total": 381,
+  "available_total": 7,
+  "planned_base_creatives": 138,
+  "planned_by_phase": {
+    "thanksgiving": 138,
+    "thanksgiving_day": 138,
+    "black_friday": 138,
+    "cyber_monday": 138,
+    "all": 381
+  },
+  "available_by_phase": {
+    "thanksgiving": 4,
+    "thanksgiving_day": 1,
+    "black_friday": 1,
+    "cyber_monday": 1,
+    "all": 7
+  },
+  "planned_by_date_phase": {
+    "thanksgiving": 81,
+    "thanksgiving_day": 81,
+    "black_friday": 81,
+    "cyber_monday": 81,
+    "campaign": 42,
+    "evergreen": 15
+  },
+  "available_by_date_phase": {
+    "thanksgiving": 4,
+    "thanksgiving_day": 1,
+    "black_friday": 1,
+    "cyber_monday": 1
+  },
+  "formats": [
+    "png",
+    "webp"
+  ],
   "items": [
     {
-      "id": "Hydra09Hybrid_1x1_A",
-      "group": "Hydra09Hybrid",
+      "id": "VertiGo_1x1_A__thanksgiving",
+      "creative_id": "VertiGo_1x1_A",
+      "group": "VertiGo",
       "variant": "A",
+      "style": "A",
       "size": "1x1",
       "width": 1080,
       "height": 1080,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_A_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_A_v3.webp"
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "5c55be6bee693e99f294d17e4b392f60cdfaceba9f0f2394ad9d16c94696d7e2",
+        "webp": "c30eed7b5537ce569ee9c1a07cc3a17a394dd3c8eabc8d9b2876917ba938180a"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_A__thanksgiving-5c55be6bee693e99.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_A__thanksgiving-c30eed7b5537ce56.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
     },
     {
-      "id": "Hydra09Hybrid_4x5_A",
-      "group": "Hydra09Hybrid",
-      "variant": "A",
-      "size": "4x5",
-      "width": 1080,
-      "height": 1350,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_A_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_A_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_9x16_A",
-      "group": "Hydra09Hybrid",
-      "variant": "A",
-      "size": "9x16",
-      "width": 1080,
-      "height": 1920,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_A_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_A_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_Google_A",
-      "group": "Hydra09Hybrid",
-      "variant": "A",
-      "size": "Google",
-      "width": 1200,
-      "height": 628,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_A_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_A_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_EDM_A",
-      "group": "Hydra09Hybrid",
-      "variant": "A",
-      "size": "EDM",
-      "width": 1200,
-      "height": 600,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_A_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_A_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_1x1_B",
-      "group": "Hydra09Hybrid",
+      "id": "VertiGo_1x1_B__thanksgiving",
+      "creative_id": "VertiGo_1x1_B",
+      "group": "VertiGo",
       "variant": "B",
+      "style": "B",
       "size": "1x1",
       "width": 1080,
       "height": 1080,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_B_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_B_v3.webp"
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "2bb21e0933aeeec9c0a04d29b6075884ae201a531f5a08583b48032978aea42a",
+        "webp": "787d8570ff67ff01022cda7f100254c8266ce9556f78d8c2cc98ed79a7046dc1"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_B__thanksgiving-2bb21e0933aeeec9.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_B__thanksgiving-787d8570ff67ff01.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
     },
     {
-      "id": "Hydra09Hybrid_4x5_B",
-      "group": "Hydra09Hybrid",
+      "id": "VertiGo_1x1_B__thanksgiving_day",
+      "creative_id": "VertiGo_1x1_B",
+      "group": "VertiGo",
       "variant": "B",
-      "size": "4x5",
-      "width": 1080,
-      "height": 1350,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_B_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_B_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_9x16_B",
-      "group": "Hydra09Hybrid",
-      "variant": "B",
-      "size": "9x16",
-      "width": 1080,
-      "height": 1920,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_B_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_B_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_Google_B",
-      "group": "Hydra09Hybrid",
-      "variant": "B",
-      "size": "Google",
-      "width": 1200,
-      "height": 628,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_B_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_B_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_EDM_B",
-      "group": "Hydra09Hybrid",
-      "variant": "B",
-      "size": "EDM",
-      "width": 1200,
-      "height": 600,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_B_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_B_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_1x1_C",
-      "group": "Hydra09Hybrid",
-      "variant": "C",
+      "style": "B",
       "size": "1x1",
       "width": 1080,
       "height": 1080,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_C_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_1x1_C_v3.webp"
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving_day",
+      "phase_export": "thanksgiving_day",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "d9e1e655d9e4ce36a25a893a7b47af5af9890fd1d49443019a5c5f283c76ad25",
+        "webp": "8426999a1041f4fec00cf103b52a6184e0e0bce1d188c97587d60a5f94774ec9"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_B__thanksgiving_day-d9e1e655d9e4ce36.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_B__thanksgiving_day-8426999a1041f4fe.webp",
+      "printed_date_tag": "HAPPY THANKSGIVING",
+      "date_window": {
+        "start": "2026-11-26",
+        "end": "2026-11-26"
+      }
     },
     {
-      "id": "Hydra09Hybrid_4x5_C",
-      "group": "Hydra09Hybrid",
-      "variant": "C",
+      "id": "VertiGo_1x1_B__black_friday",
+      "creative_id": "VertiGo_1x1_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "black_friday",
+      "phase_export": "black_friday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "991b28d50935f780dfefc9403e71a798d9ff9c6651c6249d4b1862e6dc91b4c4",
+        "webp": "4e7d064e9f929a04b3a2a55feb2ef1f9df7af0ff185ba429b1e6c493fd46f244"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_B__black_friday-991b28d50935f780.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_B__black_friday-4e7d064e9f929a04.webp",
+      "printed_date_tag": "BLACK FRIDAY",
+      "date_window": {
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_B__cyber_monday",
+      "creative_id": "VertiGo_1x1_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "cyber_monday",
+      "phase_export": "cyber_monday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "2605362b27e800ceb7500fd91e82bbac79673eb1a1808ecf7c8e0471f2a178f0",
+        "webp": "ced81eaaf4228709d5563f11893753732f0923dd10b9e75f3ed316f9a0b1f9c8"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_B__cyber_monday-2605362b27e800ce.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_B__cyber_monday-ced81eaaf4228709.webp",
+      "printed_date_tag": "CYBER MONDAY · LAST DAY",
+      "date_window": {
+        "start": "2026-11-30",
+        "end": "2026-11-30"
+      }
+    },
+    {
+      "id": "VertiGo_4x5_B__thanksgiving",
+      "creative_id": "VertiGo_4x5_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
       "size": "4x5",
       "width": 1080,
       "height": 1350,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_C_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_4x5_C_v3.webp"
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "a52ae85f2ae2d5f3d03c251f83e29ef6e2f907dc111a6d68ba55780a244baee9",
+        "webp": "af55993d25d3be8df82893686447e9a8ffa8c2649ba0b52f5d85033b886bd5d8"
+      },
+      "png": "v6/png/VertiGo/VertiGo_4x5_B__thanksgiving-a52ae85f2ae2d5f3.png",
+      "webp": "v6/webp/VertiGo/VertiGo_4x5_B__thanksgiving-af55993d25d3be8d.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
     },
     {
-      "id": "Hydra09Hybrid_9x16_C",
-      "group": "Hydra09Hybrid",
+      "id": "VertiGo_1x1_C__thanksgiving",
+      "creative_id": "VertiGo_1x1_C",
+      "group": "VertiGo",
       "variant": "C",
-      "size": "9x16",
+      "style": "C",
+      "size": "1x1",
       "width": 1080,
-      "height": 1920,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_C_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_9x16_C_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_Google_C",
-      "group": "Hydra09Hybrid",
-      "variant": "C",
-      "size": "Google",
-      "width": 1200,
-      "height": 628,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_C_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_Google_C_v3.webp"
-    },
-    {
-      "id": "Hydra09Hybrid_EDM_C",
-      "group": "Hydra09Hybrid",
-      "variant": "C",
-      "size": "EDM",
-      "width": 1200,
-      "height": 600,
-      "png": "png/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_C_v3.png",
-      "webp": "webp/Hydra09Hybrid/BFCM26_Hydra09Hybrid_EDM_C_v3.webp"
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "fe90fcedaff2768dac0d2e25d3fcbbe89550b79acf899d36aea755a1a4f752ac",
+        "webp": "62f4ef6c77b43382c77daa8d63fd9fe32de8c1a7cc97b32c1bb229c34ef771eb"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_C__thanksgiving-fe90fcedaff2768d.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_C__thanksgiving-62f4ef6c77b43382.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
     }
   ]
 }
