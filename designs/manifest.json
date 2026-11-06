@@ -1,38 +1,38 @@
 {
   "schema_version": 6,
   "asset_version": "v6",
-  "generated_at": "2026-11-06T17:46:21+00:00",
-  "total": 381,
-  "planned_total": 381,
-  "available_total": 7,
-  "planned_base_creatives": 138,
+  "generated_at": "2026-11-06T18:43:14+00:00",
+  "total": 402,
+  "planned_total": 402,
+  "available_total": 32,
+  "planned_base_creatives": 159,
   "planned_by_phase": {
-    "thanksgiving": 138,
-    "thanksgiving_day": 138,
-    "black_friday": 138,
-    "cyber_monday": 138,
-    "all": 381
+    "thanksgiving": 159,
+    "thanksgiving_day": 144,
+    "black_friday": 144,
+    "cyber_monday": 144,
+    "all": 402
   },
   "available_by_phase": {
-    "thanksgiving": 4,
-    "thanksgiving_day": 1,
-    "black_friday": 1,
-    "cyber_monday": 1,
-    "all": 7
+    "thanksgiving": 17,
+    "thanksgiving_day": 5,
+    "black_friday": 5,
+    "cyber_monday": 5,
+    "all": 32
   },
   "planned_by_date_phase": {
-    "thanksgiving": 81,
+    "thanksgiving": 96,
     "thanksgiving_day": 81,
     "black_friday": 81,
     "cyber_monday": 81,
-    "campaign": 42,
-    "evergreen": 15
+    "campaign": 45,
+    "evergreen": 18
   },
   "available_by_date_phase": {
-    "thanksgiving": 4,
-    "thanksgiving_day": 1,
-    "black_friday": 1,
-    "cyber_monday": 1
+    "thanksgiving": 17,
+    "thanksgiving_day": 5,
+    "black_friday": 5,
+    "cyber_monday": 5
   },
   "formats": [
     "png",
@@ -69,6 +69,102 @@
       "date_window": {
         "start": "2026-11-10",
         "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_A__thanksgiving_day",
+      "creative_id": "VertiGo_1x1_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving_day",
+      "phase_export": "thanksgiving_day",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "02a42e849b5d5a9fdefc6125f1794793c889855d55cea59ff999f92b139ae265",
+        "webp": "65af78a798b4680b6f5b72174a24a6f6188da98c8e39469939bee1b1647eeaa7"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_A__thanksgiving_day-02a42e849b5d5a9f.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_A__thanksgiving_day-65af78a798b4680b.webp",
+      "printed_date_tag": "HAPPY THANKSGIVING",
+      "date_window": {
+        "start": "2026-11-26",
+        "end": "2026-11-26"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_A__black_friday",
+      "creative_id": "VertiGo_1x1_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "black_friday",
+      "phase_export": "black_friday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "7059b974d98fa0ae0f1b2215a6db9f3239187a823aa9e1ae462bc2d7675f3d82",
+        "webp": "78a0f0aa9a5ae8e3cb028e88fad3f6bdd3f22c00a6c3bab293260d054eb75873"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_A__black_friday-7059b974d98fa0ae.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_A__black_friday-78a0f0aa9a5ae8e3.webp",
+      "printed_date_tag": "BLACK FRIDAY",
+      "date_window": {
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_A__cyber_monday",
+      "creative_id": "VertiGo_1x1_A",
+      "group": "VertiGo",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "cyber_monday",
+      "phase_export": "cyber_monday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "32957aa70a0482f79f36284e9f33ba6f5c7751739837645c4ff103e7c15f37fb",
+        "webp": "7ba2e3c69faac1690f2ba46e5b260df038b98c1d4cd7a5152411efb4dad91753"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_A__cyber_monday-32957aa70a0482f7.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_A__cyber_monday-7ba2e3c69faac169.webp",
+      "printed_date_tag": "CYBER MONDAY · LAST DAY",
+      "date_window": {
+        "start": "2026-11-30",
+        "end": "2026-11-30"
       }
     },
     {
@@ -232,6 +328,102 @@
       }
     },
     {
+      "id": "VertiGo_4x5_B__thanksgiving_day",
+      "creative_id": "VertiGo_4x5_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "date_phase": "thanksgiving_day",
+      "phase_export": "thanksgiving_day",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "d33f9fe5eb8f66940655902ad533a7c6f1db4d7227fb1ae1a878f2a443e0812c",
+        "webp": "dfd4f640614531f4c75edfeb51b34e39715f647af4ceb009662a0a5eb5d82b8b"
+      },
+      "png": "v6/png/VertiGo/VertiGo_4x5_B__thanksgiving_day-d33f9fe5eb8f6694.png",
+      "webp": "v6/webp/VertiGo/VertiGo_4x5_B__thanksgiving_day-dfd4f640614531f4.webp",
+      "printed_date_tag": "HAPPY THANKSGIVING",
+      "date_window": {
+        "start": "2026-11-26",
+        "end": "2026-11-26"
+      }
+    },
+    {
+      "id": "VertiGo_4x5_B__black_friday",
+      "creative_id": "VertiGo_4x5_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "date_phase": "black_friday",
+      "phase_export": "black_friday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "306240efbb02ebdafd57263511e9a8d2e15f40860f05776831be2a4ee0faa805",
+        "webp": "816d2760f38f7ea0c4994c5431db3ad8cc14c60feb594e552828e7379634d4c6"
+      },
+      "png": "v6/png/VertiGo/VertiGo_4x5_B__black_friday-306240efbb02ebda.png",
+      "webp": "v6/webp/VertiGo/VertiGo_4x5_B__black_friday-816d2760f38f7ea0.webp",
+      "printed_date_tag": "BLACK FRIDAY",
+      "date_window": {
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      }
+    },
+    {
+      "id": "VertiGo_4x5_B__cyber_monday",
+      "creative_id": "VertiGo_4x5_B",
+      "group": "VertiGo",
+      "variant": "B",
+      "style": "B",
+      "size": "4x5",
+      "width": 1080,
+      "height": 1350,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "date_phase": "cyber_monday",
+      "phase_export": "cyber_monday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "9e2f69fc348af720159d5800b214dbc1887b706a89549b4da4effac5c4e54a1b",
+        "webp": "b61a46416ef96550c3cfe866cf31a2f8161a351eab88fd850881a6323bd71c0f"
+      },
+      "png": "v6/png/VertiGo/VertiGo_4x5_B__cyber_monday-9e2f69fc348af720.png",
+      "webp": "v6/webp/VertiGo/VertiGo_4x5_B__cyber_monday-b61a46416ef96550.webp",
+      "printed_date_tag": "CYBER MONDAY · LAST DAY",
+      "date_window": {
+        "start": "2026-11-30",
+        "end": "2026-11-30"
+      }
+    },
+    {
       "id": "VertiGo_1x1_C__thanksgiving",
       "creative_id": "VertiGo_1x1_C",
       "group": "VertiGo",
@@ -257,6 +449,614 @@
       },
       "png": "v6/png/VertiGo/VertiGo_1x1_C__thanksgiving-fe90fcedaff2768d.png",
       "webp": "v6/webp/VertiGo/VertiGo_1x1_C__thanksgiving-62f4ef6c77b43382.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_C__thanksgiving_day",
+      "creative_id": "VertiGo_1x1_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving_day",
+      "phase_export": "thanksgiving_day",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "4aa23cbb671369f3883e7babcc65a52a85a93e4b1c6ab729bc7047f2712ff308",
+        "webp": "80892e10abcc4d9bfe7c27191f3841ba5e047884de906d2ebccbaa0d856993ac"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_C__thanksgiving_day-4aa23cbb671369f3.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_C__thanksgiving_day-80892e10abcc4d9b.webp",
+      "printed_date_tag": "HAPPY THANKSGIVING",
+      "date_window": {
+        "start": "2026-11-26",
+        "end": "2026-11-26"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_C__black_friday",
+      "creative_id": "VertiGo_1x1_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "black_friday",
+      "phase_export": "black_friday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "e1f3579e3e322607316468239188f812a0681e79e484e18ec80f2f19170dfd6b",
+        "webp": "622bf5a9e3983767594e4b605afc5bb2ab73ce7535bfa6c28a551e5953c50ca5"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_C__black_friday-e1f3579e3e322607.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_C__black_friday-622bf5a9e3983767.webp",
+      "printed_date_tag": "BLACK FRIDAY",
+      "date_window": {
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_C__cyber_monday",
+      "creative_id": "VertiGo_1x1_C",
+      "group": "VertiGo",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "cyber_monday",
+      "phase_export": "cyber_monday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "61d7fd37ce1f5e55e05aa74f393c84b713c88e41a8fec39f316cd348385b898b",
+        "webp": "cdb73b5d9300bff50b0a62407207143e0a47201c9e10015e7408f8ad16c37ad6"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_C__cyber_monday-61d7fd37ce1f5e55.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_C__cyber_monday-cdb73b5d9300bff5.webp",
+      "printed_date_tag": "CYBER MONDAY · LAST DAY",
+      "date_window": {
+        "start": "2026-11-30",
+        "end": "2026-11-30"
+      }
+    },
+    {
+      "id": "Banner_Mobile_A__thanksgiving",
+      "creative_id": "Banner_Mobile_A",
+      "group": "Banner",
+      "variant": "A",
+      "style": "A",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "5a2cfc3e13cd30578289488d617009c3695986e5906f7bd0bdb5090ba1344fc7",
+        "webp": "e4581126925598c65610c55a079dfdffb70c80746772ae34f8bc01b09b9283e7"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_A__thanksgiving-5a2cfc3e13cd3057.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_A__thanksgiving-e4581126925598c6.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Banner_Mobile_A__thanksgiving_day",
+      "creative_id": "Banner_Mobile_A",
+      "group": "Banner",
+      "variant": "A",
+      "style": "A",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving_day",
+      "phase_export": "thanksgiving_day",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "aa699095a675f231fd5bba32234bd4415b26c92ccf81acca9d3aba2e20ef4e65",
+        "webp": "3ac2c0db12506b59adb92ad9f99b00d8353a3d240c4e6813532852b892d07d13"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_A__thanksgiving_day-aa699095a675f231.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_A__thanksgiving_day-3ac2c0db12506b59.webp",
+      "printed_date_tag": "HAPPY THANKSGIVING",
+      "date_window": {
+        "start": "2026-11-26",
+        "end": "2026-11-26"
+      }
+    },
+    {
+      "id": "Banner_Mobile_A__black_friday",
+      "creative_id": "Banner_Mobile_A",
+      "group": "Banner",
+      "variant": "A",
+      "style": "A",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "black_friday",
+      "phase_export": "black_friday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "756c13aafd4d23c5f527400c4cc71909f0ff3d62adc011ae00eecb5a9742c1f9",
+        "webp": "69c243cd20b6ef98098b8e037f685fec6ab50ab20971a6b734a525ab3cf55fe7"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_A__black_friday-756c13aafd4d23c5.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_A__black_friday-69c243cd20b6ef98.webp",
+      "printed_date_tag": "BLACK FRIDAY",
+      "date_window": {
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      }
+    },
+    {
+      "id": "Banner_Mobile_A__cyber_monday",
+      "creative_id": "Banner_Mobile_A",
+      "group": "Banner",
+      "variant": "A",
+      "style": "A",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "cyber_monday",
+      "phase_export": "cyber_monday",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "7bc01a43f219c7b0936e86d27cab6a8661e232059d07d5777adb205677a67dca",
+        "webp": "5fb5e6664918b80a2be227a50d54a9c4b1505ef460f3f91be6f874ebda1f75d9"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_A__cyber_monday-7bc01a43f219c7b0.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_A__cyber_monday-5fb5e6664918b80a.webp",
+      "printed_date_tag": "CYBER MONDAY · LAST DAY",
+      "date_window": {
+        "start": "2026-11-30",
+        "end": "2026-11-30"
+      }
+    },
+    {
+      "id": "Banner_Mobile_B__thanksgiving",
+      "creative_id": "Banner_Mobile_B",
+      "group": "Banner",
+      "variant": "B",
+      "style": "B",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "218ac28a06d61403fa399c810d3cf6b57c45b5382bcceb8d7cad04261d03d9e1",
+        "webp": "e8a50647698ec500ea27b9f029eafe80cfb537cba54524889ebfe667a9c5fc8d"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_B__thanksgiving-218ac28a06d61403.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_B__thanksgiving-e8a50647698ec500.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Banner_Mobile_C__thanksgiving",
+      "creative_id": "Banner_Mobile_C",
+      "group": "Banner",
+      "variant": "C",
+      "style": "C",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "cce5ddaf0992088c48dc84a052d560ba37507c97967fc77fd74c5ec9f2e60b12",
+        "webp": "0e5c299efde784467123840a920d061ec6d0f7ff9e59128fcb2cacffb54c7d7a"
+      },
+      "png": "v6/png/Banner/Banner_Mobile_C__thanksgiving-cce5ddaf0992088c.png",
+      "webp": "v6/webp/Banner/Banner_Mobile_C__thanksgiving-0e5c299efde78446.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Banner_After14_Mobile_A__thanksgiving",
+      "creative_id": "Banner_After14_Mobile_A",
+      "group": "Banner_After14",
+      "variant": "A",
+      "style": "A",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c402ba55b1d4eb49ebeac7447e8688f0d5dc42420f3bb03e31565ddf15011465",
+        "webp": "bcc3d5603c4bd10e728459872ca4e1ac14193c2aa91703a073a5293290704a8b"
+      },
+      "png": "v6/png/Banner_After14/Banner_After14_Mobile_A__thanksgiving-c402ba55b1d4eb49.png",
+      "webp": "v6/webp/Banner_After14/Banner_After14_Mobile_A__thanksgiving-bcc3d5603c4bd10e.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S1_1x1_A__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_A",
+      "group": "Hydra07_S1",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "6a508112262c594a95438a0afe7c21735bcf0b0174a264ab834d8b424d5b067d",
+        "webp": "41c7c231d612be1ede6d4474b977db08cb8fe4a8e27181376a86915b39248b92"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_A__thanksgiving-6a508112262c594a.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_A__thanksgiving-41c7c231d612be1e.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S1_1x1_B__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_B",
+      "group": "Hydra07_S1",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "e85d5f1c9b27c18d26cf2b2da8a3cf06295f512d9d2207d13e4377a19a8aa409",
+        "webp": "7fe04f605a13773f2f57fa969171329fff80297e02491eb08b94016d6a29e76e"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_B__thanksgiving-e85d5f1c9b27c18d.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_B__thanksgiving-7fe04f605a13773f.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Cobra_1x1_C__thanksgiving",
+      "creative_id": "Cobra_1x1_C",
+      "group": "Cobra",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "b492bf397e16a804ff52e328d2f639b79c8431226eea50b306e0bfa49798f9ea",
+        "webp": "934b1cec604eea1e1a3214ae27d0d24b5e25435728612f93079dc18ec74e1646"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_C__thanksgiving-b492bf397e16a804.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_C__thanksgiving-934b1cec604eea1e.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_D__thanksgiving",
+      "creative_id": "VertiGo_1x1_D",
+      "group": "VertiGo",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c2e534f32e88ccb026974ff7c815e50d26e1ab7ea3e161df03342631d6b640b7",
+        "webp": "5d392c1f48c410880f189b89b4f685dbec9dbd44fbb358ba6b626ff0fa866751"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_D__thanksgiving-c2e534f32e88ccb0.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_D__thanksgiving-5d392c1f48c41088.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_D__thanksgiving",
+      "creative_id": "XRF38_1x1_D",
+      "group": "XRF38",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "9fa2b35163274ac132d639d512a31f029f0c8fb050bdd9784e33278f29c72b92",
+        "webp": "e96cfd718d8a534fb7b57aa8c3364b49b833a3b17549c791737f46df1e0f5064"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_D__thanksgiving-9fa2b35163274ac1.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_D__thanksgiving-e96cfd718d8a534f.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_E__thanksgiving",
+      "creative_id": "VertiGo_1x1_E",
+      "group": "VertiGo",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c602820603006a42764ecb5f6791d54de9b117f07b727858a9415f30ecb1fd4e",
+        "webp": "41617f152d3507c4ddd715d589a00cdc439bef5e01861f09d5349a28c8ec9cc8"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_E__thanksgiving-c602820603006a42.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_E__thanksgiving-41617f152d3507c4.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_E__thanksgiving",
+      "creative_id": "XRF38_1x1_E",
+      "group": "XRF38",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "9eb4f9c0effed0d854d466d97fb93dc6e9e4609c2e7e61435b4bc70a0cddffd6",
+        "webp": "7323c80a75b4e117ad4ee79b5eef27790ad2cc0330d00b9e8adbba3f9d28541d"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_E__thanksgiving-9eb4f9c0effed0d8.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_E__thanksgiving-7323c80a75b4e117.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "VertiGo_1x1_F__thanksgiving",
+      "creative_id": "VertiGo_1x1_F",
+      "group": "VertiGo",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "412cea093b06de41f04d7f6fae5a1021ebcc1ffe9e39276af1d3b904a15f7e96",
+        "webp": "f3463edc3f51279a6bed79d2891ba7cadc4a529fdb214088b8db7bb21d698221"
+      },
+      "png": "v6/png/VertiGo/VertiGo_1x1_F__thanksgiving-412cea093b06de41.png",
+      "webp": "v6/webp/VertiGo/VertiGo_1x1_F__thanksgiving-f3463edc3f51279a.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_F__thanksgiving",
+      "creative_id": "XRF38_1x1_F",
+      "group": "XRF38",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "cd12d9440efe4b6d3cae1a90ed6a2d3ba893e32ced0583bc2f656b4215d5d95e",
+        "webp": "6a0922da62500b1839e9ca331883ca3207f706f95159db84a038fd40f3c88a07"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_F__thanksgiving-cd12d9440efe4b6d.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_F__thanksgiving-6a0922da62500b18.webp",
       "printed_date_tag": "THANKSGIVING SALE",
       "date_window": {
         "start": "2026-11-10",

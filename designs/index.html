@@ -16,6 +16,7 @@
     .toolbar{position:sticky;top:0;z-index:10;background:rgba(20,18,15,.96);backdrop-filter:blur(14px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.filters{display:grid;grid-template-columns:1.15fr 1.65fr 1fr 1fr auto;align-items:end;gap:12px;padding-top:18px;padding-bottom:16px}.filter{min-width:0}.filter span{display:block;margin-bottom:6px;font-size:10px;color:var(--muted);letter-spacing:.06em}.filter select{width:100%;background:#29241e;border:1px solid #514638;border-radius:5px;color:var(--ink);padding:10px 30px 10px 11px;font-size:12px;cursor:pointer;min-height:40px}.filter.date select{border-color:#8f6940;color:#ffe0b5;background:#352a1f}.reset{min-height:40px;border:1px solid var(--line);border-radius:5px;background:transparent;color:var(--muted);padding:9px 14px;font-size:12px}.reset:hover{background:#302920}.results-bar{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:17px 0 0;color:var(--muted);font-size:11px;line-height:1.8}.date-note{color:var(--accent)}
     .gallery{padding-top:23px;padding-bottom:60px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}.card{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:9px;overflow:hidden}.picture{height:350px;padding:14px;background:#090909;display:flex;align-items:center;justify-content:center;position:relative;text-decoration:none}.picture img{max-width:100%;max-height:100%;object-fit:contain;transition:transform .2s ease}.picture:hover img{transform:scale(1.02)}.picture::after{content:"↗";position:absolute;right:11px;top:11px;background:#12100dd9;color:white;display:grid;place-items:center;width:27px;height:27px;border-radius:50%;opacity:0;transition:opacity .2s}.picture:hover::after,.picture:focus-visible::after{opacity:1}.info{padding:18px 19px 20px}.card-phase{display:inline-block;font-size:9px;letter-spacing:.05em;color:var(--accent);border:1px solid #685039;border-radius:3px;padding:3px 6px;margin-bottom:10px;line-height:1.3}.info h2{font-size:15px;font-weight:550;line-height:1.5;margin:0 0 8px}.meta{color:var(--muted);font-size:11px;line-height:1.8;margin:0}.downloads{display:flex;gap:10px;margin-top:15px}.downloads a{font-size:11px;text-decoration:none;border:1px solid #66513d;border-radius:5px;padding:8px 11px;transition:background .2s}.downloads a:first-child{color:#ffd3a0}.downloads a:hover{background:#3c3024}.empty{grid-column:1/-1;margin:0;padding:65px 24px;text-align:center;border:1px dashed var(--line);border-radius:9px;color:var(--muted);font-size:13px;line-height:1.9}.empty strong{display:block;font-weight:500;color:var(--ink);margin-bottom:7px}.footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:32px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;line-height:1.9}
     @media(min-width:1600px){.picture{height:410px}}@media(max-width:1100px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.picture{height:350px}.edition{display:none}.filters{grid-template-columns:1.2fr 1.5fr 1fr 1fr auto;gap:9px}.metric{padding:16px}.filter select{font-size:11px}.shell{padding-left:28px;padding-right:28px}}@media(max-width:760px){.shell{padding-left:20px;padding-right:20px}.topbar{padding-top:21px;padding-bottom:18px}.logo{width:145px;height:39px}.language button{padding:7px 10px;font-size:12px}.hero{padding:31px 0 24px;display:block}.hero h1{font-size:42px}.hero p{font-size:12px;line-height:1.85}.eyebrow{font-size:9px;letter-spacing:.11em}.progress{grid-template-columns:1fr 1fr}.metric{padding:13px 15px}.metric strong{font-size:26px}.metric.current{grid-column:1/-1;border-left:0;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;column-gap:15px;align-items:center}.metric.current strong{grid-column:2;grid-row:1/3;font-size:30px}.metric-label,.metric small{font-size:10px}.status{font-size:11px;margin-bottom:19px}.filters{grid-template-columns:1fr 1fr auto;padding-top:14px;padding-bottom:14px;gap:11px 9px}.filter.date{grid-column:1/-1}.filter.product{grid-column:1/-1}.filter select{font-size:12px}.filter span{font-size:9px}.reset{font-size:11px;padding:9px 10px}.results-bar{display:block;font-size:10px}.results-bar span{display:block}.gallery{grid-template-columns:1fr;padding-top:18px;padding-bottom:35px;gap:19px}.picture{height:380px}.footer{display:block;padding-top:20px}.footer span{display:block;margin-top:4px}}@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+    .filters{grid-template-columns:1.1fr 1.15fr 1.65fr 1fr 1fr auto}.review-badge{display:block;width:fit-content;margin-bottom:9px;font-size:10px;line-height:1.4;padding:4px 7px;border-radius:3px}.review-badge.checked{background:#203a2b;color:#c4edce;border:1px solid #3a6549}.review-badge.pending{background:#4a3020;color:#ffd2a1;border:1px solid #8d5934}.card[data-review=needs_revision]{border-color:#65503a}.filter.review select{border-color:#8f6940}@media(max-width:1100px){.filters{grid-template-columns:1fr 1fr 1.4fr 1fr 1fr auto}}@media(max-width:760px){.filters{grid-template-columns:1fr 1fr auto}.filter.review,.filter.date,.filter.product{grid-column:1/-1}}
   </style>
 </head>
 <body>
@@ -31,20 +32,21 @@
       <div>
         <p class="eyebrow">ONELASER / THANKSGIVING &amp; BFCM 2026</p>
         <h1 data-i18n="title">为感恩季，做点特别的。</h1>
-        <p data-i18n="intro">从一份亲手制作的心意开始。按活动日期、产品、方案与版位浏览设计，下载已审核的 PNG 或 WebP。</p>
+        <p data-i18n="intro">查看全部真实成图。已核对的新稿与待替换的历史稿分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。</p>
         <a class="bundle" id="bundle" hidden></a>
       </div>
       <div class="edition"><strong>2026</strong>MAKE SOMETHING TO GIVE<br>THANKSGIVING / BLACK FRIDAY / CYBER MONDAY</div>
     </div>
     <section class="progress" aria-label="Artwork readiness">
-      <div class="metric"><span class="metric-label" data-i18n="plannedLabel">计划交付总量 · 全日期</span><strong id="planned-total">—</strong><small data-i18n="plannedHint">计划数量，不代表已完成</small></div>
-      <div class="metric"><span class="metric-label" data-i18n="readyLabel">全部已就绪</span><strong id="ready-total">—</strong><small data-i18n="readyHint">已审核且 PNG / WebP 可下载</small></div>
-      <div class="metric current"><span class="metric-label" id="phase-metric-label">当前日期 · Thanksgiving</span><strong id="phase-progress">—</strong><small data-i18n="phaseHint">已就绪 / 该日期计划</small></div>
+      <div class="metric"><span class="metric-label" data-i18n="plannedLabel">全部成图</span><strong id="planned-total">—</strong><small data-i18n="plannedHint">真实生成并提供 PNG / WebP</small></div>
+      <div class="metric"><span class="metric-label" data-i18n="readyLabel">已核对</span><strong id="ready-total">—</strong><small data-i18n="readyHint">外观与文案已核对的新稿</small></div>
+      <div class="metric current"><span class="metric-label" id="phase-metric-label">历史稿 · 待替换</span><strong id="phase-progress">—</strong><small data-i18n="phaseHint">保留旧稿供查看，不作为定稿</small></div>
     </section>
     <div class="status" id="status-wrap"><span class="status-dot" aria-hidden="true"></span><span id="status" role="status" aria-live="polite">正在读取素材清单…</span></div>
   </header>
   <section class="toolbar" aria-label="Artwork filters">
     <div class="shell filters">
+      <label class="filter review"><span data-i18n="review">审核状态</span><select id="review"></select></label>
       <label class="filter date"><span data-i18n="phase">活动日期</span><select id="phase"></select></label>
       <label class="filter product"><span data-i18n="product">产品 / 活动</span><select id="group"></select></label>
       <label class="filter"><span data-i18n="style">视觉方案</span><select id="style"></select></label>
@@ -54,7 +56,7 @@
   </section>
   <div class="shell results-bar"><span id="count" aria-live="polite">—</span><span class="date-note" data-i18n="sharedNote">全活动通用稿与常青款在各日期均可见</span></div>
   <main class="shell gallery" id="gallery" aria-label="Reviewed artwork gallery"></main>
-  <footer class="shell footer"><div data-i18n="footer">OneLaser · 感恩节与 BFCM 2026 设计预览</div><span data-i18n="note">海报文案为英文 · 仅提供 PNG / WebP · 未审核稿不展示</span></footer>
+  <footer class="shell footer"><div data-i18n="footer">OneLaser · 感恩节与 BFCM 2026 设计预览</div><span data-i18n="note">海报文案为英文 · PNG / WebP · 历史稿清楚标为待替换</span></footer>
   <script>
   'use strict';
   // Pure data rules are kept separate from the UI so review/date gates can be checked locally.
@@ -63,22 +65,36 @@
     const shared = ['campaign', 'evergreen'];
     const validPhases = new Set([...dates, ...shared]);
     const count = value => Number.isSafeInteger(value) && value >= 0 ? value : null;
-    const phase = value => dates.includes(value) || value === 'all' ? value : 'thanksgiving';
+    const phase = value => dates.includes(value) || value === 'all' ? value : 'all';
+    const review = value => ['all','approved','needs_revision'].includes(value) ? value : 'all';
     const asset = (value, format) => typeof value === 'string' &&
       new RegExp('^[A-Za-z0-9_./-]+\\.' + format + '$', 'i').test(value) &&
       !value.startsWith('/') && !value.includes('..') && !value.includes('//');
     function approved(item) {
-      return item && typeof item === 'object' && typeof item.id === 'string' && item.id.length > 0 &&
+      return item && item.legacy !== true && typeof item === 'object' && typeof item.id === 'string' && item.id.length > 0 &&
         typeof item.group === 'string' && item.group.length > 0 && ['A','B','C','D','E','F'].includes(item.variant) && typeof item.size === 'string' && item.size.length > 0 &&
         item.approved === true && item.qa_status === 'approved' && item.status === 'accepted' && item.accepted_preview === true &&
         validPhases.has(item.date_phase) && asset(item.png, 'png') && asset(item.webp, 'webp') &&
         Number.isSafeInteger(item.width) && item.width > 0 && Number.isSafeInteger(item.height) && item.height > 0;
     }
-    function normalize(input) {
+    function historical(item) {
+      return item && item.legacy === true && item.native_complete_poster === true &&
+        ['needs_revision','previous_preview'].includes(item.review_status) && item.approved === false &&
+        item.accepted_preview === false && typeof item.id === 'string' && item.id.startsWith('legacy_') &&
+        typeof item.group === 'string' && ['A','B','C','D','E','F'].includes(item.variant) && typeof item.size === 'string' &&
+        validPhases.has(item.date_phase) && asset(item.png,'png') && item.png.startsWith('legacy/png/') &&
+        asset(item.webp,'webp') && item.webp.startsWith('legacy/webp/') &&
+        Number.isSafeInteger(item.width) && item.width > 0 && Number.isSafeInteger(item.height) && item.height > 0;
+    }
+    function normalize(input, history = null) {
       if (!input || typeof input !== 'object' || !Array.isArray(input.items)) throw new Error('Invalid gallery manifest');
       const seen = new Set(), items = [];
       for (const item of input.items) {
         if (!approved(item) || seen.has(item.id)) continue;
+        seen.add(item.id); items.push(item);
+      }
+      for (const item of Array.isArray(history?.items) ? history.items : []) {
+        if (!historical(item) || seen.has(item.id)) continue;
         seen.add(item.id); items.push(item);
       }
       const plannedTotal = count(input.planned_total) ?? count(input.total);
@@ -92,31 +108,32 @@
     const plannedForPhase = (data, selected) => data.plannedByPhase[phase(selected)] ?? null;
     function select(data, filters) {
       return forPhase(data, filters.phase).filter(item => (!filters.group || item.group === filters.group) &&
-        (!filters.style || item.variant === filters.style) && (!filters.size || item.size === filters.size));
+        (!filters.style || item.variant === filters.style) && (!filters.size || item.size === filters.size) &&
+        (review(filters.review) === 'all' || (review(filters.review) === 'approved' ? approved(item) : historical(item))));
     }
     function bundleHref(value) {
       if (typeof value !== 'string') return null;
       if (/^[A-Za-z0-9_./-]+\.zip$/i.test(value) && !value.startsWith('/') && !value.includes('..') && !value.includes('//')) return value;
       try { const url = new URL(value); return url.protocol === 'https:' && url.hostname === 'github.com' && url.pathname.endsWith('.zip') ? url.href : null; } catch { return null; }
     }
-    return Object.freeze({dates, phase, approved, normalize, matchesPhase, forPhase, plannedForPhase, select, bundleHref});
+    return Object.freeze({dates, phase, review, approved, historical, normalize, matchesPhase, forPhase, plannedForPhase, select, bundleHref});
   })();
   // UI renderer: it consumes only the sanitized, approved manifest items above.
   const COPY = {
     zh: {
-      title:'为感恩季，做点特别的。', intro:'从一份亲手制作的心意开始。按活动日期、产品、方案与版位浏览设计，下载已审核的 PNG 或 WebP。',
-      plannedLabel:'计划交付总量 · 全日期', plannedHint:'计划数量，不代表已完成', readyLabel:'全部已就绪', readyHint:'已审核且 PNG / WebP 可下载', phaseHint:'已就绪 / 该日期计划', phase:'活动日期', product:'产品 / 活动', style:'视觉方案', size:'尺寸 / 版位', reset:'重置', allGroup:'全部产品与活动', allStyle:'全部方案', allSize:'全部尺寸',
-      footer:'OneLaser · 感恩节与 BFCM 2026 设计预览', note:'海报文案为英文 · 仅提供 PNG / WebP · 未审核稿不展示', sharedNote:'全活动通用稿与常青款在各日期均可见', png:'下载 PNG', webp:'下载 WebP', open:'查看大图', bundle:'下载全部 PNG + WebP', loading:'正在读取素材清单…', error:'暂时无法读取素材清单，请刷新页面重试。', emptyTitle:'这个筛选条件下还没有已就绪的设计', empty:'素材核对并导出后会加入这里，也可以切换日期或重置筛选。',
-      status:'素材持续制作与核对中。此页只展示已审核并已导出的设计，计划数量不代表完成数量。', currentDate:'当前日期', count:(n, ready)=>`筛选结果 ${n} 张 · 当前日期已就绪 ${ready} 张`,
+      title:'为感恩季，做点特别的。', intro:'查看全部真实成图。已核对的新稿与待替换的历史稿分别标识，均可下载 PNG 或 WebP；后续按单尺寸母版继续补图。',
+      plannedLabel:'全部成图', plannedHint:'真实生成并提供 PNG / WebP', readyLabel:'已核对', readyHint:'外观与文案已核对的新稿', phaseHint:'保留旧稿供查看，不作为定稿', phase:'活动日期', review:'审核状态', product:'产品 / 活动', style:'视觉方案', size:'尺寸 / 版位', reset:'重置', allGroup:'全部产品与活动', allStyle:'全部方案', allSize:'全部尺寸',
+      footer:'OneLaser · 感恩节与 BFCM 2026 设计预览', note:'海报文案为英文 · PNG / WebP · 历史稿清楚标为待替换', sharedNote:'历史稿为真实原生成图，已退回稿仅供查看', png:'下载 PNG', webp:'下载 WebP', open:'查看大图', bundle:'下载全部 PNG + WebP', loading:'正在读取素材清单…', error:'暂时无法读取素材清单，请刷新页面重试。', emptyTitle:'这个筛选条件下没有成图', empty:'可以切换审核状态、活动日期或重置筛选。',
+      status:'新稿持续补充。此前的真实原生成图保留在历史区，待替换标记不代表定稿通过；后续按单尺寸母版继续制作。', currentDate:'历史稿 · 待替换', count:(n, ready)=>`筛选结果 ${n} 张 · 其中已核对 ${ready} 张`, reviews:{all:'全部成图',approved:'已核对',needs_revision:'待替换'}, approvedBadge:'已核对', historyBadge:'历史稿 · 待替换', historyDirection:'历史方案',
       phases:{thanksgiving:'感恩季 · Thanksgiving',thanksgiving_day:'感恩节当天 · HAPPY THANKSGIVING',black_friday:'黑五 · Black Friday',cyber_monday:'网一 · Cyber Monday',all:'全部日期',campaign:'全活动通用',evergreen:'常青款'},
       groups:{StudioScenes:'四机合集 · 场景版',XRF38:'XRF 38W RF',Hydra07_S1:'Hydra 7 Pro · 前 14 台',Hydra07_S2:'Hydra 7 Pro · 第二阶段',Cobra:'Cobra 8 / 10 / 14',VertiGo:'VertiGo 38W RF',Hydra09Hybrid:'Hydra 9 Hybrid',Brand:'品牌活动 · 最高省 $3,000',Brand_After14:'品牌活动 · 最高省 $2,000',Banner:'官网 Banner · $3,000',Banner_After14:'官网 Banner · $2,000'},
       directions:{A:'A · 琥珀工坊',B:'B · 秋日暖橙',C:'C · 奶油白摄影',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, styles:{A:'A · 琥珀工坊',B:'B · 秋日暖橙',C:'C · 奶油白摄影',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, sceneStyles:{A:'A · 暖色木作工坊',B:'B · 黑金品牌展示间',C:'C · 明亮创客工作室',D:'D · 暖调建筑空间',E:'E · 奶油白编辑风',F:'F · 深色铜金工坊'}, sizes:{'1x1':'方形 · 1:1','4x5':'信息流 · 4:5','9x16':'Story · 9:16',Google:'Google · 横版',EDM:'EDM · 横版',Desktop:'桌面 Banner',Mobile:'移动 Banner'}
     },
     en: {
-      title:'Made for giving.', intro:'Start with something made by you. Explore reviewed campaign artwork by date, product, direction and placement, then download PNG or WebP.',
-      plannedLabel:'PLANNED DELIVERABLES · ALL DATES', plannedHint:'Planned quantity, not completed artwork', readyLabel:'READY ACROSS ALL DATES', readyHint:'Reviewed, with PNG / WebP available', phaseHint:'Ready / planned for this date', phase:'CAMPAIGN DATE', product:'PRODUCT / CAMPAIGN', style:'VISUAL DIRECTION', size:'SIZE / PLACEMENT', reset:'Reset', allGroup:'All products & campaigns', allStyle:'All directions', allSize:'All sizes',
-      footer:'OneLaser · Thanksgiving & BFCM 2026 creative preview', note:'Artwork copy in English · PNG / WebP only · Unreviewed work is not shown', sharedNote:'Campaign-wide and evergreen artwork appears on every date', png:'Download PNG', webp:'Download WebP', open:'View full image', bundle:'Download all PNG + WebP', loading:'Loading the artwork collection…', error:'The artwork manifest could not be loaded. Please refresh and try again.', emptyTitle:'No reviewed artwork matches these filters yet', empty:'Artwork will appear here after review and export. Try another date or reset the filters.',
-      status:'Artwork is being created and reviewed. Only reviewed, exported designs appear here; planned quantities do not indicate completion.', currentDate:'SELECTED DATE', count:(n, ready)=>`${n} matching designs · ${ready} ready for this date`,
+      title:'Made for giving.', intro:'Explore every complete native artwork. Reviewed new designs and historical drafts awaiting replacement are clearly labeled. Download PNG or WebP as new single-size masters are added.',
+      plannedLabel:'ALL COMPLETE ARTWORK', plannedHint:'Real generations with PNG / WebP', readyLabel:'REVIEWED', readyHint:'New designs checked for product and copy accuracy', phaseHint:'Earlier drafts for reference, not approved finals', phase:'CAMPAIGN DATE', review:'REVIEW STATUS', product:'PRODUCT / CAMPAIGN', style:'VISUAL DIRECTION', size:'SIZE / PLACEMENT', reset:'Reset', allGroup:'All products & campaigns', allStyle:'All directions', allSize:'All sizes',
+      footer:'OneLaser · Thanksgiving & BFCM 2026 creative preview', note:'Artwork copy in English · PNG / WebP · Historical drafts are labeled awaiting replacement', sharedNote:'Historical drafts are real native generations, shown for reference', png:'Download PNG', webp:'Download WebP', open:'View full image', bundle:'Download all PNG + WebP', loading:'Loading the artwork collection…', error:'The artwork manifest could not be loaded. Please refresh and try again.', emptyTitle:'No artwork matches these filters', empty:'Try another review status or campaign date, or reset the filters.',
+      status:'New masters are being added. Earlier native generations remain available as clearly labeled drafts awaiting replacement. Future work follows a single-size master plan.', currentDate:'HISTORICAL · AWAITING REPLACEMENT', count:(n, ready)=>`${n} matching artworks · ${ready} reviewed`, reviews:{all:'All artwork',approved:'Reviewed',needs_revision:'Awaiting replacement'}, approvedBadge:'Reviewed', historyBadge:'Historical · awaiting replacement', historyDirection:'Historical direction',
       phases:{thanksgiving:'Thanksgiving',thanksgiving_day:'HAPPY THANKSGIVING',black_friday:'Black Friday',cyber_monday:'Cyber Monday',all:'All dates',campaign:'Campaign-wide',evergreen:'Evergreen'},
       groups:{StudioScenes:'Four-machine studio collection',XRF38:'XRF 38W RF',Hydra07_S1:'Hydra 7 Pro · First 14 units',Hydra07_S2:'Hydra 7 Pro · Phase 2',Cobra:'Cobra 8 / 10 / 14',VertiGo:'VertiGo 38W RF',Hydra09Hybrid:'Hydra 9 Hybrid',Brand:'Brand campaign · Up to $3,000 off',Brand_After14:'Brand campaign · Up to $2,000 off',Banner:'Website banner · $3,000',Banner_After14:'Website banner · $2,000'},
       directions:{A:'A · Amber workshop',B:'B · Autumn warmth',C:'C · Cream daylight',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, styles:{A:'A · Amber workshop',B:'B · Autumn warmth',C:'C · Cream daylight',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, sceneStyles:{A:'A · Warm maker woodshop',B:'B · Black & gold showroom',C:'C · Sunlit creative studio',D:'D · Warm architectural studio',E:'E · Cream editorial daylight',F:'F · Charcoal & copper workshop'}, sizes:{'1x1':'Square · 1:1','4x5':'Feed · 4:5','9x16':'Story · 9:16',Google:'Google · Landscape',EDM:'EDM · Landscape',Desktop:'Desktop banner',Mobile:'Mobile banner'}
@@ -130,6 +147,7 @@
   let lang = locationState.searchParams.get('lang') || savedLanguage || 'zh';
   if (!Object.hasOwn(COPY, lang)) lang = 'zh';
   let selectedPhase = GalleryRules.phase(locationState.searchParams.get('phase'));
+  let selectedReview = GalleryRules.review(locationState.searchParams.get('review'));
   let data = {items:[], plannedTotal:null, plannedByPhase:{}, bundle:null, bundleReady:false};
   let loadState = 'loading';
   const groupKeys = Object.keys(COPY.zh.groups), sizeKeys = Object.keys(COPY.zh.sizes);
@@ -140,7 +158,7 @@
     element.replaceChildren(...options);
     element.value = keys.includes(previous) ? previous : (placeholder === null ? keys[0] : '');
   }
-  function styleLabel(item, copy) { return (item.group === 'StudioScenes' ? copy.sceneStyles : copy.styles)[item.variant] || item.variant; }
+  function styleLabel(item, copy) { return item.legacy ? `${item.variant} · ${copy.historyDirection}` : (item.group === 'StudioScenes' ? copy.sceneStyles : copy.styles)[item.variant] || item.variant; }
   function updateStyleOptions() {
     const copy = COPY[lang];
     fillOptions('style', ['A','B','C','D','E','F'], copy.directions, copy.allStyle);
@@ -148,6 +166,7 @@
   function updateURL() {
     const url = new URL(location.href);
     url.searchParams.set('lang', lang); url.searchParams.set('phase', selectedPhase);
+    url.searchParams.set('review', selectedReview);
     try { history.replaceState(null, '', url); } catch {}
   }
   function setLanguage(next) {
@@ -158,6 +177,7 @@
     document.querySelectorAll('[data-lang]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === lang)));
     document.querySelectorAll('[data-i18n]').forEach(element => { element.textContent = copy[element.dataset.i18n]; });
     fillOptions('phase', [...GalleryRules.dates, 'all'], copy.phases, null, selectedPhase);
+    fillOptions('review', ['all','approved','needs_revision'], copy.reviews, null, selectedReview);
     fillOptions('group', groupKeys, copy.groups, copy.allGroup);
     fillOptions('size', sizeKeys, copy.sizes, copy.allSize); updateStyleOptions();
     try { localStorage.setItem(languageStorageKey, lang); } catch {}
@@ -165,32 +185,34 @@
   }
   function render() {
     const copy = COPY[lang], phaseItems = GalleryRules.forPhase(data, selectedPhase);
-    const items = GalleryRules.select(data, {phase:selectedPhase, group:$('group').value, style:$('style').value, size:$('size').value});
+    const items = GalleryRules.select(data, {phase:selectedPhase, review:selectedReview, group:$('group').value, style:$('style').value, size:$('size').value});
     const plannedDate = GalleryRules.plannedForPhase(data, selectedPhase);
-    $('planned-total').textContent = loadState === 'ready' ? (data.plannedTotal ?? '—') : '—';
-    $('ready-total').textContent = loadState === 'ready' ? data.items.length : '—';
-    $('phase-metric-label').textContent = `${copy.currentDate} · ${copy.phases[selectedPhase]}`;
-    $('phase-progress').textContent = loadState === 'ready' ? `${phaseItems.length} / ${plannedDate ?? '—'}` : '—';
+    $('planned-total').textContent = loadState === 'ready' ? data.items.length : '—';
+    $('ready-total').textContent = loadState === 'ready' ? data.items.filter(GalleryRules.approved).length : '—';
+    $('phase-metric-label').textContent = copy.currentDate;
+    $('phase-progress').textContent = loadState === 'ready' ? data.items.filter(GalleryRules.historical).length : '—';
     $('status').textContent = loadState === 'loading' ? copy.loading : loadState === 'error' ? copy.error : copy.status;
     $('status-wrap').classList.toggle('error', loadState === 'error');
-    $('count').textContent = loadState === 'ready' ? copy.count(items.length, phaseItems.length) : '—';
+    $('count').textContent = loadState === 'ready' ? copy.count(items.length, items.filter(GalleryRules.approved).length) : '—';
     const bundle = GalleryRules.bundleHref(data.bundle);
     $('bundle').hidden = !(loadState === 'ready' && data.bundleReady && bundle && data.plannedTotal > 0 && data.items.length === data.plannedTotal);
     if (!$('bundle').hidden) { $('bundle').href = bundle; $('bundle').textContent = copy.bundle; }
     const fragment = document.createDocumentFragment();
     for (const item of items) {
-      const product = copy.groups[item.group] || item.group, direction = styleLabel(item, copy);
+      const product = item.legacy ? (lang === 'en' ? item.title_en : item.title) || copy.groups[item.group] || item.group : copy.groups[item.group] || item.group, direction = styleLabel(item, copy);
       const card = document.createElement('article'); card.className = 'card'; card.dataset.id = item.id; card.dataset.phase = item.date_phase;
       const picture = document.createElement('a'); picture.className = 'picture'; picture.href = item.png; picture.target = '_blank'; picture.rel = 'noopener';
       picture.setAttribute('aria-label', `${copy.open}: ${product} · ${direction} · ${item.width} × ${item.height}`);
       const image = document.createElement('img'); image.src = item.webp; image.alt = `${product} · ${direction} · ${copy.phases[item.date_phase]} · ${item.width} × ${item.height}`; image.loading = 'lazy'; image.decoding = 'async'; picture.append(image);
       const info = document.createElement('div'); info.className = 'info';
       const phaseBadge = document.createElement('span'); phaseBadge.className = 'card-phase'; phaseBadge.textContent = copy.phases[item.date_phase];
+      const reviewBadge = document.createElement('span'); reviewBadge.className = 'review-badge ' + (item.legacy ? 'pending' : 'checked'); reviewBadge.textContent = item.legacy ? copy.historyBadge : copy.approvedBadge;
       const title = document.createElement('h2'); title.textContent = product;
       const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = `${direction} · ${copy.sizes[item.size] || item.size} · ${item.width} × ${item.height}`;
       const downloads = document.createElement('div'); downloads.className = 'downloads';
       for (const type of ['png','webp']) { const anchor = document.createElement('a'); anchor.href = item[type]; anchor.download = item[type].split('/').pop(); anchor.textContent = copy[type]; downloads.append(anchor); }
-      info.append(phaseBadge, title, meta, downloads); card.append(picture, info); fragment.append(card);
+      card.dataset.review = item.legacy ? 'needs_revision' : 'approved';
+      info.append(reviewBadge, phaseBadge, title, meta, downloads); card.append(picture, info); fragment.append(card);
     }
     if (!items.length) {
       const empty = document.createElement('div'); empty.className = 'empty';
@@ -203,12 +225,13 @@
   }
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
   $('phase').addEventListener('change', () => { selectedPhase = GalleryRules.phase($('phase').value); updateURL(); render(); });
+  $('review').addEventListener('change', () => { selectedReview = GalleryRules.review($('review').value); updateURL(); render(); });
   $('group').addEventListener('change', () => { updateStyleOptions(); render(); });
   for (const id of ['style','size']) $(id).addEventListener('change', render);
-  $('reset').addEventListener('click', () => { selectedPhase = 'thanksgiving'; $('phase').value = selectedPhase; for (const id of ['group','style','size']) $(id).value = ''; updateStyleOptions(); updateURL(); render(); });
+  $('reset').addEventListener('click', () => { selectedPhase = 'all'; selectedReview = 'all'; $('phase').value = selectedPhase; $('review').value = selectedReview; for (const id of ['group','style','size']) $(id).value = ''; updateStyleOptions(); updateURL(); render(); });
   setLanguage(lang);
-  fetch('manifest.json', {cache:'no-cache'}).then(response => { if (!response.ok) throw new Error(`Manifest HTTP ${response.status}`); return response.json(); }).then(manifest => {
-    data = GalleryRules.normalize(manifest); loadState = 'ready'; render();
+  Promise.all([fetch('manifest.json', {cache:'no-cache'}).then(response => { if (!response.ok) throw new Error(`Manifest HTTP ${response.status}`); return response.json(); }), fetch('legacy-manifest.json',{cache:'no-cache'}).then(response=>response.ok ? response.json() : {items:[]}).catch(()=>({items:[]}))]).then(([manifest, history]) => {
+    data = GalleryRules.normalize(manifest, history); loadState = 'ready'; render();
   }).catch(() => { loadState = 'error'; render(); });
   </script>
 </body>
