@@ -1,38 +1,40 @@
 {
   "schema_version": 6,
   "asset_version": "v6",
-  "generated_at": "2026-11-06T18:43:14+00:00",
-  "total": 402,
-  "planned_total": 402,
-  "available_total": 32,
-  "planned_base_creatives": 159,
+  "generated_at": "2026-11-06T19:32:22+00:00",
+  "total": 70,
+  "planned_total": 70,
+  "available_total": 70,
+  "planned_base_creatives": 55,
   "planned_by_phase": {
-    "thanksgiving": 159,
-    "thanksgiving_day": 144,
-    "black_friday": 144,
-    "cyber_monday": 144,
-    "all": 402
+    "thanksgiving": 55,
+    "thanksgiving_day": 23,
+    "black_friday": 23,
+    "cyber_monday": 23,
+    "all": 70
   },
   "available_by_phase": {
-    "thanksgiving": 17,
+    "thanksgiving": 55,
+    "thanksgiving_day": 23,
+    "black_friday": 23,
+    "cyber_monday": 23,
+    "all": 70
+  },
+  "planned_by_date_phase": {
+    "thanksgiving": 37,
+    "thanksgiving_day": 5,
+    "evergreen": 6,
+    "black_friday": 5,
+    "campaign": 12,
+    "cyber_monday": 5
+  },
+  "available_by_date_phase": {
+    "thanksgiving": 37,
     "thanksgiving_day": 5,
     "black_friday": 5,
     "cyber_monday": 5,
-    "all": 32
-  },
-  "planned_by_date_phase": {
-    "thanksgiving": 96,
-    "thanksgiving_day": 81,
-    "black_friday": 81,
-    "cyber_monday": 81,
-    "campaign": 45,
-    "evergreen": 18
-  },
-  "available_by_date_phase": {
-    "thanksgiving": 17,
-    "thanksgiving_day": 5,
-    "black_friday": 5,
-    "cyber_monday": 5
+    "campaign": 12,
+    "evergreen": 6
   },
   "formats": [
     "png",
@@ -552,6 +554,174 @@
       }
     },
     {
+      "id": "Brand_1x1_A",
+      "creative_id": "Brand_1x1_A",
+      "group": "Brand",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "5ceb7c9d5bde8a39734dbe00f86cc1e395a73592de9a1271ccb8fe2e01d2b4c7",
+        "webp": "85c9c70ed324536cb360109cd454fb2d271f2b4133c661c2eb619ed697762920"
+      },
+      "png": "v6/png/Brand/Brand_1x1_A-5ceb7c9d5bde8a39.png",
+      "webp": "v6/webp/Brand/Brand_1x1_A-85c9c70ed324536c.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Brand_1x1_B",
+      "creative_id": "Brand_1x1_B",
+      "group": "Brand",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "ffc1cec1e7e0edcc7ef81c7ace1cae3828c6c3b41504613263f7af90ebb6f5b6",
+        "webp": "154119b29351bf4d91aa13dc71c71b7bb799581ad75c5233960e7495782623ac"
+      },
+      "png": "v6/png/Brand/Brand_1x1_B-ffc1cec1e7e0edcc.png",
+      "webp": "v6/webp/Brand/Brand_1x1_B-154119b29351bf4d.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Brand_1x1_C",
+      "creative_id": "Brand_1x1_C",
+      "group": "Brand",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c14a1eb0e59ea4386926398a77808ea301dcfe071773e984ceedf14391699eea",
+        "webp": "5a3a4a2f679a4fba7fbf87c0efadf5d84be8d716380e1695b4408b913ce8e817"
+      },
+      "png": "v6/png/Brand/Brand_1x1_C-c14a1eb0e59ea438.png",
+      "webp": "v6/webp/Brand/Brand_1x1_C-5a3a4a2f679a4fba.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Brand_After14_1x1_A",
+      "creative_id": "Brand_After14_1x1_A",
+      "group": "Brand_After14",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c8abdab8a62c6b1dc34cf82214175bb532c76975808a475909ddd09af224c987",
+        "webp": "96249cd99ff54f757516bf43ff64e94b647eb1c5bd3b84f194e6486d06f095c9"
+      },
+      "png": "v6/png/Brand_After14/Brand_After14_1x1_A-c8abdab8a62c6b1d.png",
+      "webp": "v6/webp/Brand_After14/Brand_After14_1x1_A-96249cd99ff54f75.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Brand_After14_1x1_B",
+      "creative_id": "Brand_After14_1x1_B",
+      "group": "Brand_After14",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "b30dbbaf7d1279815943df7bcec6893029bf7bf4086edee17b0cb7e06bba8c0f",
+        "webp": "37abca16b9ff7ac0df5c90aa3caff48e72c57f850bb84124490a41b8661825e8"
+      },
+      "png": "v6/png/Brand_After14/Brand_After14_1x1_B-b30dbbaf7d127981.png",
+      "webp": "v6/webp/Brand_After14/Brand_After14_1x1_B-37abca16b9ff7ac0.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Brand_After14_1x1_C",
+      "creative_id": "Brand_After14_1x1_C",
+      "group": "Brand_After14",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "6f2cb0edceebbf0369e021eb23add4a606ff8633b8b2506d31b2acad3f3f009d",
+        "webp": "9db5c3c9e00f240c06e5fc170b0597e58f5d1a28fbe571958d3e9a83f19158dc"
+      },
+      "png": "v6/png/Brand_After14/Brand_After14_1x1_C-6f2cb0edceebbf03.png",
+      "webp": "v6/webp/Brand_After14/Brand_After14_1x1_C-9db5c3c9e00f240c.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
       "id": "Banner_Mobile_A__thanksgiving",
       "creative_id": "Banner_Mobile_A",
       "group": "Banner",
@@ -776,6 +946,166 @@
       }
     },
     {
+      "id": "Banner_After14_Mobile_B__thanksgiving",
+      "creative_id": "Banner_After14_Mobile_B",
+      "group": "Banner_After14",
+      "variant": "B",
+      "style": "B",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "799ba43fc61f7691bdbbaf6dcbd393477452214f1dcf3bc1b265ae3e1e951cc3",
+        "webp": "350c2cb3c265689336d6f905a0e424e17e3e1334bb51cc8cfcf0e316067e2e10"
+      },
+      "png": "v6/png/Banner_After14/Banner_After14_Mobile_B__thanksgiving-799ba43fc61f7691.png",
+      "webp": "v6/webp/Banner_After14/Banner_After14_Mobile_B__thanksgiving-350c2cb3c2656893.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Banner_After14_Mobile_C__thanksgiving",
+      "creative_id": "Banner_After14_Mobile_C",
+      "group": "Banner_After14",
+      "variant": "C",
+      "style": "C",
+      "size": "Mobile",
+      "width": 750,
+      "height": 1000,
+      "target_dimensions": {
+        "width": 750,
+        "height": 1000
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "f3d381643957f417551d5ee90bd9315985696da4ab4820c3f83ed97b919145bc",
+        "webp": "6b293b8f21dd7ac97fec6b0bc5508d33d9438b44022b0dee333b838940feb76c"
+      },
+      "png": "v6/png/Banner_After14/Banner_After14_Mobile_C__thanksgiving-f3d381643957f417.png",
+      "webp": "v6/webp/Banner_After14/Banner_After14_Mobile_C__thanksgiving-6b293b8f21dd7ac9.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_A__thanksgiving",
+      "creative_id": "XRF38_1x1_A",
+      "group": "XRF38",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "7f95f9f6fd88d6d637d1eca8211354343ad3e2e2017b4be2c112519cb2a9fb88",
+        "webp": "37845c04f3ca90e6b270d3c5981e098421e893396e20317ab3018cf01b15fcbc"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_A__thanksgiving-7f95f9f6fd88d6d6.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_A__thanksgiving-37845c04f3ca90e6.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_B__thanksgiving",
+      "creative_id": "XRF38_1x1_B",
+      "group": "XRF38",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "f69601fe41ee02ac9739499822e9b8cc3e63e8365d9e8a03679ac3f1e7109167",
+        "webp": "4b3822f64e92bd20bbb122cb98c296cb30cadb4a4b5f597eb645a434036d59e9"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_B__thanksgiving-f69601fe41ee02ac.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_B__thanksgiving-4b3822f64e92bd20.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "XRF38_1x1_C__thanksgiving",
+      "creative_id": "XRF38_1x1_C",
+      "group": "XRF38",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "d1b3ad6a593e4888eda162154f0a88c591ad3ef773ab592180cd33f0333cbfe3",
+        "webp": "5ec943ceb069bc74c3b15acfc6335109a8c8db832c609599eb304da3f7b2fb7f"
+      },
+      "png": "v6/png/XRF38/XRF38_1x1_C__thanksgiving-d1b3ad6a593e4888.png",
+      "webp": "v6/webp/XRF38/XRF38_1x1_C__thanksgiving-5ec943ceb069bc74.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
       "id": "Hydra07_S1_1x1_A__thanksgiving",
       "creative_id": "Hydra07_S1_1x1_A",
       "group": "Hydra07_S1",
@@ -840,6 +1170,282 @@
       }
     },
     {
+      "id": "Hydra07_S1_1x1_C__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_C",
+      "group": "Hydra07_S1",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "bb182110edfa87bba2395b2eaf5e2ab1db03f6d1d8683611f79babfe8f2c0fb0",
+        "webp": "bc33a73530781198c6f77bff3b545661667c11c23579cc9f5b16f0f1d2f9155b"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_C__thanksgiving-bb182110edfa87bb.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_C__thanksgiving-bc33a73530781198.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_A__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_A",
+      "group": "Hydra07_S2",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "5a65150c85f815a03c17b36b0d1f07799edd82defd26508866daad189175a122",
+        "webp": "fba79f602ff3201349d6ddf9938975605db22818265ae26b2d8bfffd46ecc5b2"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_A__thanksgiving-5a65150c85f815a0.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_A__thanksgiving-fba79f602ff32013.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_B__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_B",
+      "group": "Hydra07_S2",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "9261bc8a46503e59ba844cd69d1bf24c20c3a870c39daf94b7b4373b86a551bc",
+        "webp": "067afba1e334423264ee69816480b53c5c374946354f2a588f78b49f01bb9491"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_B__thanksgiving-9261bc8a46503e59.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_B__thanksgiving-067afba1e3344232.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_C__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_C",
+      "group": "Hydra07_S2",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "333de931a1b51f9a7c39a6f076d4178cff95ecc1957e540b5af717a60b6ebdbc",
+        "webp": "7a1f3cdcacc713ad7988d42ced42ed661007935d21c225032e5f95e0b86166f6"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_C__thanksgiving-333de931a1b51f9a.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_C__thanksgiving-7a1f3cdcacc713ad.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "StudioScenes_1x1_A",
+      "creative_id": "StudioScenes_1x1_A",
+      "group": "StudioScenes",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "0ceb3d3ebacca0c5e95d32ffc990a7d252e86955950d4344e01f0d09c258b2b6",
+        "webp": "bf324906f7d6131b02d7d1356e1ab80e46b154044835566d30a666352f15f1e7"
+      },
+      "png": "v6/png/StudioScenes/StudioScenes_1x1_A-0ceb3d3ebacca0c5.png",
+      "webp": "v6/webp/StudioScenes/StudioScenes_1x1_A-bf324906f7d6131b.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "StudioScenes_1x1_B",
+      "creative_id": "StudioScenes_1x1_B",
+      "group": "StudioScenes",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "87697fa9677b6633144e45531797109f14268563dc936a80daaee518313fc54a",
+        "webp": "14b11ec9f2672d6e31b01fcdcc6e974c5da18b1da2e447f53a54e315b00daf23"
+      },
+      "png": "v6/png/StudioScenes/StudioScenes_1x1_B-87697fa9677b6633.png",
+      "webp": "v6/webp/StudioScenes/StudioScenes_1x1_B-14b11ec9f2672d6e.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "StudioScenes_1x1_C",
+      "creative_id": "StudioScenes_1x1_C",
+      "group": "StudioScenes",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "ddd65ca033c75b875c1d977b25590397d85a3a9d0b5c1f357448a21bd1f6bf55",
+        "webp": "cf8c09adfda9e3f5eb3788a70c05c5c2b4afb4712076c50c3494231cf9d49085"
+      },
+      "png": "v6/png/StudioScenes/StudioScenes_1x1_C-ddd65ca033c75b87.png",
+      "webp": "v6/webp/StudioScenes/StudioScenes_1x1_C-cf8c09adfda9e3f5.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
+      "id": "Cobra_1x1_A__thanksgiving",
+      "creative_id": "Cobra_1x1_A",
+      "group": "Cobra",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "5e858d704ab0d4e617487e30a0f6f23acb674a7064d8a23cdf7c02a2d3312bc1",
+        "webp": "41a857e55961ebfdd3808146f23f7d572c656367166eaf4b2ea01f6d7776cc1e"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_A__thanksgiving-5e858d704ab0d4e6.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_A__thanksgiving-41a857e55961ebfd.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Cobra_1x1_B__thanksgiving",
+      "creative_id": "Cobra_1x1_B",
+      "group": "Cobra",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "4bfd3008dc987453c08b39693bcd92e6def64d19544876ffe2a6e92753d242d7",
+        "webp": "f31a70827a5723d6352a2c771dd3d8e615c94f2d8485c90797d9b6987115d85c"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_B__thanksgiving-4bfd3008dc987453.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_B__thanksgiving-f31a70827a5723d6.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
       "id": "Cobra_1x1_C__thanksgiving",
       "creative_id": "Cobra_1x1_C",
       "group": "Cobra",
@@ -870,6 +1476,87 @@
         "start": "2026-11-10",
         "end": "2026-11-25"
       }
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_A",
+      "creative_id": "Hydra09Hybrid_1x1_A",
+      "group": "Hydra09Hybrid",
+      "variant": "A",
+      "style": "A",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "387ebcb91b50f0b6a6c170e9df321c0cb80fa94812358ce31ae5ef76868ba56c",
+        "webp": "d7e82d3b1b5b01cb152b583d9977f315e302a58cd49fe4c57ed23af2896d96ac"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_A-387ebcb91b50f0b6.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_A-d7e82d3b1b5b01cb.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_B",
+      "creative_id": "Hydra09Hybrid_1x1_B",
+      "group": "Hydra09Hybrid",
+      "variant": "B",
+      "style": "B",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "2c49946f1c776e60cb2e5a26ec2405b4c47517d378f25e2da822479e1486c6a3",
+        "webp": "9ed576af999caec3f23178306d33a5fe296717f3e65b5aca65585b5b32ac88fe"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_B-2c49946f1c776e60.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_B-9ed576af999caec3.webp"
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_C",
+      "creative_id": "Hydra09Hybrid_1x1_C",
+      "group": "Hydra09Hybrid",
+      "variant": "C",
+      "style": "C",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "f56bfe042a564f30141b815e63eabdea17096724d016b2bee170289503bc154a",
+        "webp": "dddeddf1a40322a50ba065fb48600fae47e25c996d5b37e784f8483c6892b218"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_C-f56bfe042a564f30.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_C-dddeddf1a40322a5.webp"
     },
     {
       "id": "VertiGo_1x1_D__thanksgiving",
@@ -936,6 +1623,157 @@
       }
     },
     {
+      "id": "Hydra07_S1_1x1_D__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_D",
+      "group": "Hydra07_S1",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "b327075e6e3910cd688a2ad31546d31dddff2e25cfbecd3c11c898d55d57d869",
+        "webp": "88c08e16df69d6497af04c3013fd4e547040de1c5f868ec43542b45fcbaed78d"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_D__thanksgiving-b327075e6e3910cd.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_D__thanksgiving-88c08e16df69d649.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_D__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_D",
+      "group": "Hydra07_S2",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "bb73a093c76a1ce30527a604542c4e2d7aa75891d0a03bf189275868eea4f9ed",
+        "webp": "d2db84b7f9ba14b838937aa96840d923e85efcd3afcf6a310a3abc204588d970"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_D__thanksgiving-bb73a093c76a1ce3.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_D__thanksgiving-d2db84b7f9ba14b8.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Cobra_1x1_D__thanksgiving",
+      "creative_id": "Cobra_1x1_D",
+      "group": "Cobra",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "d4b6f4a4b5ff39da5d4034e199a9badff8c5aa89df98ead5a3c37af39b0bab3b",
+        "webp": "d1b2175df5b54dfcd896cb1a12659e8f2a35b941cff1e3311830c54509dee0df"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_D__thanksgiving-d4b6f4a4b5ff39da.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_D__thanksgiving-d1b2175df5b54dfc.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_D__evergreen",
+      "creative_id": "Hydra09Hybrid_1x1_D",
+      "group": "Hydra09Hybrid",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "193fa43e5b1e371df4b9d3db7bf45e808074f7dba013e019a61c0e3abae7cbdb",
+        "webp": "47879d17ae3aa485d298f2c0fc9ca381171d47b1b5d4e5d8f9206d2c0b28f75e"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_D__evergreen-193fa43e5b1e371d.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_D__evergreen-47879d17ae3aa485.webp"
+    },
+    {
+      "id": "Brand_1x1_D__campaign",
+      "creative_id": "Brand_1x1_D",
+      "group": "Brand",
+      "variant": "D",
+      "style": "D",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "7770ac470fa9c4ebca1e299c9dbe47dc7646503cc3254e0f7bc1612950accf51",
+        "webp": "b850e49611974b3e39bc57873e0bc665f70b8a096d190c4854c25d3125cbe2cb"
+      },
+      "png": "v6/png/Brand/Brand_1x1_D__campaign-7770ac470fa9c4eb.png",
+      "webp": "v6/webp/Brand/Brand_1x1_D__campaign-b850e49611974b3e.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
       "id": "VertiGo_1x1_E__thanksgiving",
       "creative_id": "VertiGo_1x1_E",
       "group": "VertiGo",
@@ -1000,6 +1838,157 @@
       }
     },
     {
+      "id": "Hydra07_S1_1x1_E__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_E",
+      "group": "Hydra07_S1",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "36b4e23c5c633d1a3e43f6dbf550220eb62595636f8da65636f6eb81caaccfb1",
+        "webp": "8ec95200a73f21e15b2ea336ca57c7a763228151f8b5cbe2166ee723b51943c8"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_E__thanksgiving-36b4e23c5c633d1a.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_E__thanksgiving-8ec95200a73f21e1.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_E__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_E",
+      "group": "Hydra07_S2",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "589dac6d130b9ea7147c3ec07a8243fed0c1a305b7bffc9efec093420f8fa4bf",
+        "webp": "15bb1edc2202bb70bbb43a1ec07c306e4d35e48f946b5bd7600663b73d3fe94f"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_E__thanksgiving-589dac6d130b9ea7.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_E__thanksgiving-15bb1edc2202bb70.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Cobra_1x1_E__thanksgiving",
+      "creative_id": "Cobra_1x1_E",
+      "group": "Cobra",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "c67c5893b2dc4fff8b0ff773f35dfb374aa1e30e42393fb43ec301c72cf7a908",
+        "webp": "15f7da9309106f1320219256850ecf5196e2b728dc157dc0482e542552a16f84"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_E__thanksgiving-c67c5893b2dc4fff.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_E__thanksgiving-15f7da9309106f13.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_E__evergreen",
+      "creative_id": "Hydra09Hybrid_1x1_E",
+      "group": "Hydra09Hybrid",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "a22838ffc421d94ca9a09837e3487d8a76f6f28dc0cb52e8f32edc3507de9fb2",
+        "webp": "9d2338ef1b7d699800e500590f22aa94677f40cc0d7e725738b498239a2cb391"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_E__evergreen-a22838ffc421d94c.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_E__evergreen-9d2338ef1b7d6998.webp"
+    },
+    {
+      "id": "Brand_1x1_E__campaign",
+      "creative_id": "Brand_1x1_E",
+      "group": "Brand",
+      "variant": "E",
+      "style": "E",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "67262a2d96abb3e29394e1ded3e2f9f95da1b9215194f47657d40fe13765edc1",
+        "webp": "16791f64af5674c00347e7fe453393c134df92bf79a6f005b2e045abae142b0c"
+      },
+      "png": "v6/png/Brand/Brand_1x1_E__campaign-67262a2d96abb3e2.png",
+      "webp": "v6/webp/Brand/Brand_1x1_E__campaign-16791f64af5674c0.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
+    },
+    {
       "id": "VertiGo_1x1_F__thanksgiving",
       "creative_id": "VertiGo_1x1_F",
       "group": "VertiGo",
@@ -1062,6 +2051,161 @@
         "start": "2026-11-10",
         "end": "2026-11-25"
       }
+    },
+    {
+      "id": "Hydra07_S1_1x1_F__thanksgiving",
+      "creative_id": "Hydra07_S1_1x1_F",
+      "group": "Hydra07_S1",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "e7f7170a7057f2e971b0bca7d325ada1aa51e1008cc0d2bedb57b9e9eaaa7558",
+        "webp": "ae88dc130cf3265154b2b6955a281deada30e416a0d008afeb22362b24925c1f"
+      },
+      "png": "v6/png/Hydra07_S1/Hydra07_S1_1x1_F__thanksgiving-e7f7170a7057f2e9.png",
+      "webp": "v6/webp/Hydra07_S1/Hydra07_S1_1x1_F__thanksgiving-ae88dc130cf32651.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra07_S2_1x1_F__thanksgiving",
+      "creative_id": "Hydra07_S2_1x1_F",
+      "group": "Hydra07_S2",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "b5f1648678932d393691e3e98d0fb6049a2a8ecb82cf281f107c402dc3ff3676",
+        "webp": "efe52544bfd7cb66f093f5001891896a7f38172f7eac9ecafe44ac48d5bb0324"
+      },
+      "png": "v6/png/Hydra07_S2/Hydra07_S2_1x1_F__thanksgiving-b5f1648678932d39.png",
+      "webp": "v6/webp/Hydra07_S2/Hydra07_S2_1x1_F__thanksgiving-efe52544bfd7cb66.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Cobra_1x1_F__thanksgiving",
+      "creative_id": "Cobra_1x1_F",
+      "group": "Cobra",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "thanksgiving",
+      "phase_export": "thanksgiving",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "4a3fbb36ab8ec6e2ea83e9788d365c3d691059e144f3ea7fd38ed276e92a1acc",
+        "webp": "9157e16ad64d6ebd782988b6375abb80aac5a7d656e450c72b7dc90e0c3535ee"
+      },
+      "png": "v6/png/Cobra/Cobra_1x1_F__thanksgiving-4a3fbb36ab8ec6e2.png",
+      "webp": "v6/webp/Cobra/Cobra_1x1_F__thanksgiving-9157e16ad64d6ebd.webp",
+      "printed_date_tag": "THANKSGIVING SALE",
+      "date_window": {
+        "start": "2026-11-10",
+        "end": "2026-11-25"
+      }
+    },
+    {
+      "id": "Hydra09Hybrid_1x1_F__evergreen",
+      "creative_id": "Hydra09Hybrid_1x1_F",
+      "group": "Hydra09Hybrid",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "evergreen",
+      "phase_export": "evergreen",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "071d6ee8268ff9283eacf862d9595f64d1a10992a2bac3bf800f4e49756dad71",
+        "webp": "9e4242cfdf7e89e7d91af904e7364ebf24fcccc5d4447303d175b547698d5d4e"
+      },
+      "png": "v6/png/Hydra09Hybrid/Hydra09Hybrid_1x1_F__evergreen-071d6ee8268ff928.png",
+      "webp": "v6/webp/Hydra09Hybrid/Hydra09Hybrid_1x1_F__evergreen-9e4242cfdf7e89e7.webp"
+    },
+    {
+      "id": "Brand_1x1_F__campaign",
+      "creative_id": "Brand_1x1_F",
+      "group": "Brand",
+      "variant": "F",
+      "style": "F",
+      "size": "1x1",
+      "width": 1080,
+      "height": 1080,
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "date_phase": "campaign",
+      "phase_export": "campaign",
+      "status": "accepted",
+      "accepted_preview": true,
+      "approved": true,
+      "qa_status": "approved",
+      "asset_version": "v6",
+      "sha256": {
+        "png": "f3ff0adb1df433648a547a169a898404e03526d6a4560b491970eec6de03ff40",
+        "webp": "1114f739258403574ef82da9386b9c8ad060d050969bbce540dc01f6d89ee035"
+      },
+      "png": "v6/png/Brand/Brand_1x1_F__campaign-f3ff0adb1df43364.png",
+      "webp": "v6/webp/Brand/Brand_1x1_F__campaign-1114f73925840357.webp",
+      "printed_date_tag": "THANKSGIVING · BLACK FRIDAY · CYBER MONDAY"
     }
-  ]
+  ],
+  "delivery_scope": "One size per new design; previously completed formats retained.",
+  "delivery_master_total": 54,
+  "delivery_master_ready": 54,
+  "retained_other_format_total": 16
 }
